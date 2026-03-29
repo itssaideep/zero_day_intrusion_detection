@@ -56,14 +56,14 @@ Python 3.8+
 
 Installation (2 minutes)
 bash
-# Clone repository
+ Clone repository
 git clone <https://github.com/itssaideep/zero_day_intrusion_detection>
 cd zero_day_intrusion_detection
 
-# Install dependencies
+ Install dependencies
 pip install -r requirements.txt
 
-# Launch Jupyter
+ Launch Jupyter
 jupyter notebook analysis_pipeline.ipynb
 Dataset Download
 The notebook includes automatic download links, or manually place datasets in datasets/ following the structure above.
@@ -104,18 +104,20 @@ alert_threshold	0.10	    Anomaly detection cutoff
 max_rules	    50	        Retained behavioral patterns
 
 Host Layer
-Parameter	    Default	Purpose
-host_threshold	0.45	System call anomaly cutoff
-ngram_length	3-5	    Sequence length analyzed
+Parameter	   Default	Purpose
+host_threshold	0.45	   System call anomaly cutoff
+ngram_length	3-5	   Sequence length analyzed
+
 Fusion Logic
 
 ALERT = (network_score ≥ 0.10) OR (host_score ≥ 0.45)
+
 Key Results
 
-Layer	    Recall	Precision	F1-Score	Zero-Day Recall
-Network	    79.05%	94.33%	    0.861	    -
-Host	    64.88%	83.45%	    0.730	    54.3%
-Combined	92.6%	89.2%	    0.908	    54.3%
+Layer	    Recall	   Precision	F1-Score	   Zero-Day Recall
+Network	 79.05%	   94.33%	    0.861	    -
+Host	    64.88%	   83.45%	    0.730	    54.3%
+Combined	 92.6%	   89.2%	       0.908	    54.3%
 Notable Coverage Gains:
 
 Web Brute Force: +72.08pp (4.08% → 76.16%)
