@@ -1,0 +1,27 @@
+CORRELATION LAYER — EVALUATION METRICS SUMMARY
+============================================================
+CIC-IDS threshold : 0.1
+ADFA threshold    : 0.45
+Chosen strategy   : OR / MAX (flag if either layer detects)
+
+EVALUATION METRICS:
+  CIC-IDS  Recall=0.7551  Precision=0.5501  F1=0.6365  FPR=0.3572
+  ADFA     Recall=0.6488  Precision=0.8345  F1=0.7300  FPR=0.4800
+
+STRATEGY COMPARISON (fully missed attacks):
+  CIC-IDS alone  : 7 missed
+  OR  (MAX)      : 0 missed  <- chosen
+  AND (MIN)      : 20 missed
+  Weighted avg   : 2 missed
+
+BLIND SPOTS COVERED BY ADFA:
+  SSH-Patator: 12.2% -> 75.6%
+  Web Attack - XSS - Attempted: 8.3% -> 61.9%
+  Web Attack - Brute Force - Attempted: 3.4% -> 61.9%
+  FTP-Patator: 1.8% -> 75.9%
+  DoS GoldenEye: 0.0% -> 46.7%
+  DoS GoldenEye - Attempted: 0.0% -> 46.7%
+  FTP-Patator - Attempted: 0.0% -> 75.9%
+
+LABEL USAGE: Labels used for evaluation only — not training.
+Training used benign Monday data exclusively (unsupervised).

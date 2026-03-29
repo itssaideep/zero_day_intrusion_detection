@@ -1,0 +1,21 @@
+attack_type,cic_rate,adfa_rate,or_rate,and_rate,wgt_rate
+Botnet,1.0,0.0,1.0,0.0,0.6
+Botnet - Attempted,1.0,0.0,1.0,0.0,0.6
+Infiltration,1.0,0.0,1.0,0.0,0.6
+Infiltration - Attempted,1.0,0.0,1.0,0.0,0.6
+Portscan,0.9999,0.0,0.9999,0.0,0.6
+Infiltration - Portscan,0.9963,0.0,0.9963,0.0,0.5978
+DoS Slowhttptest - Attempted,0.9148,0.0,0.9148,0.0,0.5489
+DoS Hulk - Attempted,0.9074,0.0,0.9074,0.0,0.5444
+DDoS,0.9032,0.0,0.9032,0.0,0.5419
+DoS Slowloris - Attempted,0.8036,0.0,0.8036,0.0,0.4821
+DoS Slowhttptest,0.7662,0.0,0.7662,0.0,0.4597
+DoS Slowloris,0.7439,0.0,0.7439,0.0,0.4463
+DoS Hulk,0.3752,0.0,0.3752,0.0,0.2251
+SSH-Patator,0.122,0.7557,0.7557,0.122,0.3754
+Web Attack - XSS - Attempted,0.0833,0.6186,0.6186,0.0833,0.2975
+Web Attack - Brute Force - Attempted,0.034,0.6186,0.6186,0.034,0.2679
+FTP-Patator,0.0183,0.7593,0.7593,0.0183,0.3147
+DoS GoldenEye,0.0,0.4667,0.4667,0.0,0.1867
+DoS GoldenEye - Attempted,0.0,0.4667,0.4667,0.0,0.1867
+FTP-Patator - Attempted,0.0,0.7593,0.7593,0.0,0.3037
