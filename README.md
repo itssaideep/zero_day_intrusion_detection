@@ -185,24 +185,6 @@ Lab Environment: Production traffic dynamics unmodeled
 
 Static Thresholds: Manual tuning required per environment
 
-Planned Enhancements
-Encrypted Traffic Analysis (TLS 1.3 flow statistics)
-
-Online Learning (incremental rule adaptation)
-
-Multi-tenant Support (per-customer behavioral baselines)
-
-Academic Validation
-CRISP-DM Methodology Applied:
-
-
-✓ Business Understanding: Zero-day detection requirements
-✓ Data Understanding: Dual dataset characterization  
-✓ Data Preparation: Windowing + discretization pipeline
-✓ Modeling: FP-Growth association rules
-✓ Evaluation: Post-hoc validation (no label leakage)
-✓ Deployment: Production specifications documented
-IEEE Conference Paper: Included as paper.pdf with full methodology, results, and analysis.
 
 Contributing
 Fork repository
@@ -217,12 +199,3 @@ Open Pull Request
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-CIC-IDS 2017 dataset creators (Canadian Institute for Cybersecurity)
-
-ADFA-LD dataset creators (UNSW Canberra Cyber Range Lab)
-
-Blekinge Institute of Technology (BTH) academic supervision
-
-Built for enterprise security operations. Validated against real-world attack datasets. Ready for production deployment.
